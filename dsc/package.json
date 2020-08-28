@@ -1,0 +1,35 @@
+{
+  "name": "dsc",
+  "version": "1.0.0",
+  "description": "This is a fullstack Web project.It simulates a Signup and login portal build on the top of express major dependencies are passport.js , mongodb ,etc.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DSC JIIT"
+  },
+  "author": "Somya Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect-mongodb-session": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.6.0",
+    "nodemailer": "^6.4.11",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
